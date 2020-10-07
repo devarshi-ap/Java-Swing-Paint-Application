@@ -1,12 +1,15 @@
-# ```Swing-Paint-Application```
+# Swing-Paint-Application
+> A basic paint application based on Java Swing. An alternative to this is encorporating JavaFx and fxml documenting
 <br>
 
-### Simple Java Swing based Paint Application with 5 color options:
-* Green
-* Blue
-* Black
-* Red
-* Magenta
+## ```Features```
+  ##### Simple Java Swing based Paint Application with 5 color options:
+  * Green
+  * Blue
+  * Black
+  * Red
+  * Magenta
+  <br>
 
 ### Application is also encorporated with a "Clear" button to allow user to clear their canvas!
 <br>
