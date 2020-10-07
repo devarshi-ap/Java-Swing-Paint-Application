@@ -1,4 +1,4 @@
-package swingpaint;
+package SwingPaint;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -33,9 +33,11 @@ public class PaintSWG {
         }
     };
  
+ 
     public static void main(String[] args) {
         new PaintSWG().show();
     }
+ 
  
     public void show() {
         // create main frame
