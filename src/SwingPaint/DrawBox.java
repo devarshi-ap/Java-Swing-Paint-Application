@@ -1,4 +1,6 @@
-package swingpaint;
+package SwingPaint;
+
+import javax.swing.JComponent;
  
 import java.awt.Color;
 import java.awt.Graphics;
@@ -8,8 +10,6 @@ import java.awt.RenderingHints;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseMotionAdapter;
- 
-import javax.swing.JComponent;
  
 
 /**
@@ -28,6 +28,7 @@ public class DrawBox extends JComponent {
     private Image image;  // Image in which we're going to draw
     private Graphics2D g2;    // Graphics2D object ==> used to draw on
     private int oldX, oldY, currentX, currentY;   //// Mouse coordinates
+ 
  
     public DrawBox() {
         setDoubleBuffered(false);
@@ -60,6 +61,7 @@ public class DrawBox extends JComponent {
     }
  
     
+ 
     protected void paintComponent(Graphics g) {
         if (image == null) {
             // image to draw null ==> we create
@@ -74,7 +76,8 @@ public class DrawBox extends JComponent {
         g.drawImage(image, 0, 0, null);
     }
  
-    // now we create exposed methods
+ 
+
     public void clear() {
         g2.setPaint(Color.white);
         // draw white on entire draw area to clear
@@ -82,6 +85,7 @@ public class DrawBox extends JComponent {
         g2.setPaint(Color.black);
         repaint();
     }
+ 
  
     public void red() {
         // apply red color on g2 context
