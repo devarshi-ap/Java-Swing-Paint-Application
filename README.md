@@ -9,3 +9,5 @@
 * Magenta
 
 ### Application is also encorporated with a "Clear" button to allow user to clear their canvas!
+<br>
+
