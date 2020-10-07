@@ -1,4 +1,4 @@
-# Swing-Paint-Application
+# Java-Swing-Paint-Application
 This is **_your_** chance to mark your name alongside the painting **GIANTS**: 
 - [X] **_Picasso_**
 - [X] **_DaVinci_**
