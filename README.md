@@ -29,6 +29,6 @@ A basic paint application based on Java Swing. An alternative to this is encorpo
 ### ```Instructions```
 - Fork this repository
 - Click on "Clone It" or "Download" button in top right corner.
-- Download the Zip file and extract its content using WinRar [free version here](https://softcamel.com/winrar/)
+- Download the Zip file and extract its content using WinRar [(free version here)](https://softcamel.com/winrar/)
 - Open your choice of IDE and import this project folder
 - Run DrawBox.java
