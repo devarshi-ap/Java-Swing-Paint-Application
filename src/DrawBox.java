@@ -23,13 +23,13 @@ import javax.swing.JComponent;
 */
 
 
-public class DrawArea extends JComponent {
+public class DrawBox extends JComponent {
  
     private Image image;  // Image in which we're going to draw
     private Graphics2D g2;    // Graphics2D object ==> used to draw on
-    private int currentX, currentY, oldX, oldY;   //// Mouse coordinates
+    private int oldX, oldY, currentX, currentY;   //// Mouse coordinates
  
-    public DrawArea() {
+    public DrawBox() {
         setDoubleBuffered(false);
         
         addMouseListener(new MouseAdapter() {
