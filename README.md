@@ -9,6 +9,7 @@ This is **_your_** chance to mark your name alongside the painting **GIANTS**:
 ## ```Description```
 A basic paint application based on Java Swing. An alternative to this is encorporating JavaFx & FXML libraries
 <br>
+<br>
 
 ## ```Features```
 **_5 color switch options:_**
@@ -32,3 +33,4 @@ A basic paint application based on Java Swing. An alternative to this is encorpo
 - Download the Zip file and extract its content using WinRar [(free version here)](https://softcamel.com/winrar/)
 - Open your choice of IDE and import this project folder
 - Run DrawBox.java
+- If you have any problems, contact me through devarshi.ap@gmail.com
