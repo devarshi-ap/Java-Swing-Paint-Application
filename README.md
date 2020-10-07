@@ -3,7 +3,7 @@ This is **_your_** chance to mark your name alongside the painting **GIANTS**:
 - [X] **_Picasso_**
 - [X] **_DaVinci_**
 - [X] **_Bob Ross_**
-- [X] even **_Spongebob_** himself.
+- [X] even **_Squidward_** himself.
 <br>
 
 ## ```Description```
