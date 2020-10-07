@@ -1,40 +1,40 @@
 package swingpaint;
- 
-import java.awt.BorderLayout;
-import java.awt.Container;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
+import java.awt.BorderLayout;
+import java.awt.Container;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
-public class SwingPaint {
+
+public class PaintSWG {
  
     JButton clearBtn, blackBtn, blueBtn, greenBtn, redBtn, magentaBtn;
-    DrawArea drawArea;
+    DrawBox drawBox;
     
     ActionListener actionListener = new ActionListener() {
         public void actionPerformed(ActionEvent e) {
             if (e.getSource() == clearBtn) {
-                drawArea.clear();
+                drawBox.clear();
             } else if (e.getSource() == blackBtn) {
-                drawArea.black();
+                drawBox.black();
             } else if (e.getSource() == blueBtn) {
-                drawArea.blue();
+                drawBox.blue();
             } else if (e.getSource() == greenBtn) {
-                drawArea.green();
+                drawBox.green();
             } else if (e.getSource() == redBtn) {
-                drawArea.red();
+                drawBox.red();
             } else if (e.getSource() == magentaBtn) {
-                drawArea.magenta();
+                drawBox.magenta();
             }
         }
     };
  
     public static void main(String[] args) {
-        new SwingPaint().show();
+        new PaintSWG().show();
     }
  
     public void show() {
@@ -44,10 +44,10 @@ public class SwingPaint {
         // set layout on content pane
         content.setLayout(new BorderLayout());
         // create draw area
-        drawArea = new DrawArea();
+        drawBox = new DrawBox();
 
         // add to content pane
-        content.add(drawArea, BorderLayout.CENTER);
+        content.add(drawBox, BorderLayout.CENTER);
 
         // create controls to apply colors and call clear feature
         JPanel controls = new JPanel();
