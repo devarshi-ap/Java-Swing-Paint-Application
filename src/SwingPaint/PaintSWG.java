@@ -18,7 +18,7 @@ public class PaintSWG {
     ActionListener actionListener = new ActionListener() {
         public void actionPerformed(ActionEvent e) {
             if (e.getSource() == clearBtn) {
-                drawBox.clear();
+                drawBox.clearCanvas();
             } else if (e.getSource() == blackBtn) {
                 drawBox.black();
             } else if (e.getSource() == blueBtn) {
