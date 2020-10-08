@@ -70,15 +70,14 @@ public class DrawBox extends JComponent {
             // enable antialiasing
             g2.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
             // clear draw area
-            clear();
+            clearCanvas();
         }
 
         g.drawImage(image, 0, 0, null);
     }
  
  
-
-    public void clear() {
+    public void clearCanvas() {
         g2.setPaint(Color.white);
         // draw white on entire draw area to clear
         g2.fillRect(0, 0, getSize().width, getSize().height);
@@ -87,25 +86,24 @@ public class DrawBox extends JComponent {
     }
  
  
-    public void red() {
-        // apply red color on g2 context
-        g2.setPaint(Color.red);
+    public void green() {
+        g2.setPaint(Color.green);
+    }
+ 
+    public void blue() {
+        g2.setPaint(Color.blue);
     }
  
     public void black() {
         g2.setPaint(Color.black);
+    } 
+ 
+    public void red() {
+        g2.setPaint(Color.red);
     }
 
     public void magenta() {
         g2.setPaint(Color.magenta);
-    }
-
-    public void green() {
-        g2.setPaint(Color.green);
-    }
-
-    public void blue() {
-        g2.setPaint(Color.blue);
     }
  
 }
