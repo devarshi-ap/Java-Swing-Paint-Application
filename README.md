@@ -23,7 +23,7 @@ A basic paint application based on Java Swing. An alternative to this is encorpo
   * Application is also encorporated with a "Clear" button to allow user to clear their canvas!
 <br>
 
-## ```Image```
+## ```Images```
 <img src="https://user-images.githubusercontent.com/59234436/95353563-67d19280-0891-11eb-8ad2-4d30048d2945.JPG" width="60%">
 <br>
 <img src="https://user-images.githubusercontent.com/59234436/95610924-165f0a00-0a2f-11eb-9b90-1753bac5aa99.png" width="60%">
