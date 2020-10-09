@@ -26,6 +26,9 @@ A basic paint application based on Java Swing. An alternative to this is encorpo
 ## ```Image```
 <img src="https://user-images.githubusercontent.com/59234436/95353563-67d19280-0891-11eb-8ad2-4d30048d2945.JPG" width="60%">
 <br>
+<img src="https://user-images.githubusercontent.com/59234436/95610924-165f0a00-0a2f-11eb-9b90-1753bac5aa99.png" width="60%">
+<br>
+
 
 ### ```Instructions```
 - Fork this repository
